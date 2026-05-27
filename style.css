@@ -1,0 +1,232 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Utility */
+.contenedor{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 80px;
+    text-align: center;
+}
+
+
+h2{
+    color: blue;
+}
+
+
+/* Navbar */
+#main-header{
+    background-color: red;
+    padding: 20px 0;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#navbar h1{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.nav-item{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-item li{
+    list-style: none;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-item a:hover{
+    color: red;
+}
+
+
+/* Entrenamiento */
+#entrenamiento{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: red;
+    
+
+    color: white;
+}
+
+
+#entrenamiento h3{
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+
+#entrenamiento .group-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#entrenamiento .box{
+    width: 250px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#entrenamiento .box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Historia */
+#historia{
+    padding: 80px;
+    background-color: white;
+}
+
+
+#historia h2{
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+#historia .grupo-historia{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+#historia .historia-texto{
+    width: 50%;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+
+#historia .historia-img{
+    width: 50%;
+}
+
+
+#historia .historia-img img{
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Video */
+#video{
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+#video h2{
+    color: red;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.video-box{
+    width: 500px;
+}
+
+.video-box iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    border: 3px solid red;
+}
+
+.video-box h3{
+    color: white;
+    margin-top: 15px;
+}
+
+/* Contacto */
+#contacto{
+    padding: 80px;
+    text-align: center;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBH-ZkKq9dP0JUd1RgLDyOWXZ1NtzPGyrVag&s");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contacto h2{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.formulario input,
+.formulario textarea{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.formulario button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover{
+    background-color: white;
+    color: black;
+}
